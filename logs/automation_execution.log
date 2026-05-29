@@ -1,0 +1,239 @@
+2026-05-29 12:07:01 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:01 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:01 [pool-3-thread-3] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:01 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:01 [pool-3-thread-4] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Verify product sorting functionality
+2026-05-29 12:07:01 [pool-3-thread-1] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Login with various user profiles
+2026-05-29 12:07:01 [pool-3-thread-2] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Verify cart badge updates on add and remove operations
+2026-05-29 12:07:01 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:01 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:01 [pool-3-thread-3] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Complete end-to-end purchase workflow
+2026-05-29 12:07:01 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:01 [pool-3-thread-3] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:01 [pool-3-thread-2] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:07:01 [pool-3-thread-1] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:07:01 [pool-3-thread-3] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:07:01 [pool-3-thread-4] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:07:11 [pool-3-thread-2] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:07:11 [pool-3-thread-4] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:07:12 [pool-3-thread-3] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:07:13 [pool-3-thread-1] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:07:14 [pool-3-thread-3] INFO  stepDefinition.AuthSteps - Setting up logged-in user session with standard_user credentials
+2026-05-29 12:07:14 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Executing Auth Profile verification profile strategy: [standard_user] for user context ID: standard_user
+2026-05-29 12:07:20 [pool-3-thread-3] INFO  stepDefinition.AuthSteps - User successfully logged in. Dashboard title: Products
+2026-05-29 12:07:20 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Dashboard validation hit. Parsing screen context title banner. Evaluated text title output: Products
+2026-05-29 12:07:20 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Verifying login result matches expected outcome: Valid Login
+2026-05-29 12:07:20 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Starting complete end-to-end checkout purchase execution pipeline workflow.
+2026-05-29 12:07:20 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Scanning inventory landing catalog table for all products. Total products count: 6
+2026-05-29 12:07:20 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Valid login path - Dashboard title validation: Products
+2026-05-29 12:07:20 [pool-3-thread-1] INFO  stepDefinition.Hooks - Scenario PASSED: Login with various user profiles
+2026-05-29 12:07:20 [pool-3-thread-1] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:07:20 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Added product at index: 0
+2026-05-29 12:07:21 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Added product at index: 1
+2026-05-29 12:07:21 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Added product at index: 2
+2026-05-29 12:07:21 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Added product at index: 3
+2026-05-29 12:07:22 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Added product at index: 4
+2026-05-29 12:07:22 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Added product at index: 5
+2026-05-29 12:07:22 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Total products in inventory: 6 | Cart badge count: 6
+2026-05-29 12:07:22 [pool-3-thread-3] INFO  stepDefinition.CartSteps - User initiating navigation to shopping cart page.
+2026-05-29 12:07:22 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - User navigating to cart page from inventory.
+2026-05-29 12:07:23 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Populating form execution variables with properties context values.
+2026-05-29 12:07:23 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Checkout details entered: Vallabh Garini 500070
+2026-05-29 12:07:23 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - User clicking continue button on checkout form.
+2026-05-29 12:07:24 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Order summary page loaded. Executing mathematical balance verification audits.
+2026-05-29 12:07:24 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Order Summary Amounts - Subtotal: $129.94 | Tax: $10.4 | Total: $140.34
+2026-05-29 12:07:24 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Executing mathematical balance verification audits across transaction summary price strings.
+2026-05-29 12:07:24 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Mathematical matrix evaluation -> Base Cost Subtotal: 129.94 | Added Calculated Sales Tax: 10.4 | Expected Final Grand Total: 140.34
+2026-05-29 12:07:24 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - User clicking finish button to complete order.
+2026-05-29 12:07:24 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - Order submission finalized completely. Validating checkout confirmation screen response string message: Thank you for your order!
+2026-05-29 12:07:24 [pool-3-thread-3] INFO  stepDefinition.CheckoutSteps - E2E purchase process sequence achieved completely. Order confirmation greeting screen logged.
+2026-05-29 12:07:24 [pool-3-thread-3] INFO  stepDefinition.Hooks - Scenario PASSED: Complete end-to-end purchase workflow
+2026-05-29 12:07:24 [pool-3-thread-3] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:07:26 [pool-3-thread-2] INFO  stepDefinition.AuthSteps - Setting up logged-in user session with standard_user credentials
+2026-05-29 12:07:26 [pool-3-thread-4] INFO  stepDefinition.AuthSteps - Setting up logged-in user session with standard_user credentials
+2026-05-29 12:07:27 [pool-3-thread-2] INFO  stepDefinition.AuthSteps - User successfully logged in. Dashboard title: Products
+2026-05-29 12:07:27 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Starting execution metrics sequence verification for cart badge modifications.
+2026-05-29 12:07:27 [pool-3-thread-4] INFO  stepDefinition.AuthSteps - User successfully logged in. Dashboard title: Products
+2026-05-29 12:07:27 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Modifying active grid element sort sequence parameters to target format: Price (low to high)
+2026-05-29 12:07:27 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Interacting with selection layout row index target: 0 | Driving Click Event context stream.
+2026-05-29 12:07:28 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Interacting with selection layout row index target: 1 | Driving Click Event context stream.
+2026-05-29 12:07:28 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Price parsing matrix map step initiated for low-to-high validation.
+2026-05-29 12:07:28 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Interacting with selection layout row index target: 2 | Driving Click Event context stream.
+2026-05-29 12:07:28 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Price parsing matrix map step completed. Discovered item cost array sequence: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+2026-05-29 12:07:28 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Verified low-to-high numeric price sequencing remains secure.
+2026-05-29 12:07:28 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Modifying active grid element sort sequence parameters to target format: Name (Z to A)
+2026-05-29 12:07:29 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Evaluating DOM numeric notification balance badge elements. Current parsed total count: 3
+2026-05-29 12:07:29 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Product button text change validation already verified during product addition.
+2026-05-29 12:07:29 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Evicting baseline node array item at grid matrix index position 0.
+2026-05-29 12:07:29 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Lexicographical validation step initiated for Z-to-A name sorting.
+2026-05-29 12:07:29 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Recalculating DOM badge properties post-removal actions. Decremented current total balance count: 2
+2026-05-29 12:07:29 [pool-3-thread-2] INFO  stepDefinition.CartSteps - User initiating navigation to shopping cart page.
+2026-05-29 12:07:29 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Lexicographical label string arrays compiled completely: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+2026-05-29 12:07:29 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Verified lexicographical reverse alphabetical sorting sequence order.
+2026-05-29 12:07:29 [pool-3-thread-4] INFO  stepDefinition.Hooks - Scenario PASSED: Verify product sorting functionality
+2026-05-29 12:07:29 [pool-3-thread-4] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:07:30 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Verifying cart item count. Expected: 2, Actual: 2
+2026-05-29 12:07:30 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Verifying product name data properties inside the checkout view workspace.
+2026-05-29 12:07:30 [pool-3-thread-2] INFO  stepDefinition.Hooks - Scenario PASSED: Verify cart badge updates on add and remove operations
+2026-05-29 12:07:30 [pool-3-thread-2] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:07:33 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:33 [pool-3-thread-1] INFO  stepDefinition.Hooks - Scenario execution completed: Login with various user profiles
+2026-05-29 12:07:33 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:33 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:33 [pool-3-thread-1] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Login with various user profiles
+2026-05-29 12:07:33 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:33 [pool-3-thread-1] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:07:33 [pool-3-thread-3] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:33 [pool-3-thread-3] INFO  stepDefinition.Hooks - Scenario execution completed: Complete end-to-end purchase workflow
+2026-05-29 12:07:33 [pool-3-thread-3] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:36 [pool-3-thread-1] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:07:37 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Executing Auth Profile verification profile strategy: [locked_out_user] for user context ID: locked_out_user
+2026-05-29 12:07:38 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Authentication rejected as expected. Evaluating alert text layer message string: Epic sadface: Sorry, this user has been locked out.
+2026-05-29 12:07:38 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Verifying login result matches expected outcome: Invalid Login
+2026-05-29 12:07:38 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Invalid login path - Error message validation: Epic sadface: Sorry, this user has been locked out.
+2026-05-29 12:07:38 [pool-3-thread-1] INFO  stepDefinition.Hooks - Scenario PASSED: Login with various user profiles
+2026-05-29 12:07:38 [pool-3-thread-1] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:07:45 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:45 [pool-3-thread-2] INFO  stepDefinition.Hooks - Scenario execution completed: Verify cart badge updates on add and remove operations
+2026-05-29 12:07:45 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:45 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:45 [pool-3-thread-2] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Verify cart persistence and removal functionality
+2026-05-29 12:07:45 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:45 [pool-3-thread-2] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:07:46 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:46 [pool-3-thread-4] INFO  stepDefinition.Hooks - Scenario execution completed: Verify product sorting functionality
+2026-05-29 12:07:46 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:46 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:46 [pool-3-thread-4] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Verify product detail page and navigation
+2026-05-29 12:07:46 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:46 [pool-3-thread-4] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:07:49 [pool-3-thread-2] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:07:51 [pool-3-thread-4] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:07:51 [pool-3-thread-2] INFO  stepDefinition.AuthSteps - Setting up logged-in user session with standard_user credentials
+2026-05-29 12:07:51 [pool-3-thread-4] INFO  stepDefinition.AuthSteps - Setting up logged-in user session with standard_user credentials
+2026-05-29 12:07:53 [pool-3-thread-2] INFO  stepDefinition.AuthSteps - User successfully logged in. Dashboard title: Products
+2026-05-29 12:07:53 [pool-3-thread-2] INFO  stepDefinition.CartSteps - User adding 2 products to cart for isolation testing.
+2026-05-29 12:07:53 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Added product at index: 0
+2026-05-29 12:07:53 [pool-3-thread-4] INFO  stepDefinition.AuthSteps - User successfully logged in. Dashboard title: Products
+2026-05-29 12:07:53 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Target product item name identified at grid catalog line entry reference index: 1
+2026-05-29 12:07:54 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Extracting individual localized element variables from specialized focus layout sheets panel.
+2026-05-29 12:07:54 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Added product at index: 1
+2026-05-29 12:07:54 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Evaluating DOM numeric notification balance badge elements. Current parsed total count: 2
+2026-05-29 12:07:54 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Simulating user navigation detours to evaluate page memory cache state retention parameters properties.
+2026-05-29 12:07:54 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Validating price format correctness: $9.99
+2026-05-29 12:07:54 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Validating product description is populated: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+2026-05-29 12:07:54 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Testing product addition execution triggers directly inside deep detailed panels focus view layout matrix.
+2026-05-29 12:07:54 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Evaluating DOM numeric notification balance badge elements. Current parsed total count: 1
+2026-05-29 12:07:55 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - User initiating back navigation from product detail page.
+2026-05-29 12:07:55 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - History back button redirection routing verification audit checklist step. Navigated location state tracking pointer link URL: https://www.saucedemo.com/inventory.html
+2026-05-29 12:07:55 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Validating inventory page title: Products
+2026-05-29 12:07:55 [pool-3-thread-4] INFO  stepDefinition.Hooks - Scenario PASSED: Verify product detail page and navigation
+2026-05-29 12:07:55 [pool-3-thread-4] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:07:56 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Badge count should be 2 after navigation: 2
+2026-05-29 12:07:56 [pool-3-thread-2] INFO  stepDefinition.CartSteps - State retention audit check passed: active basket contents survive deep view hops uncorrupted.
+2026-05-29 12:07:56 [pool-3-thread-2] INFO  stepDefinition.CartSteps - User initiating navigation to shopping cart page.
+2026-05-29 12:07:56 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:56 [pool-3-thread-1] INFO  stepDefinition.Hooks - Scenario execution completed: Login with various user profiles
+2026-05-29 12:07:56 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:56 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:56 [pool-3-thread-1] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Login with various user profiles
+2026-05-29 12:07:56 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:07:56 [pool-3-thread-1] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:07:56 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Evicting item record tracking block entry completely from table context layout inside Cart checkout workspace view.
+2026-05-29 12:07:56 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Cart item count validation: Expected 1, Actual: 1
+2026-05-29 12:07:56 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Validating remaining product details integrity.
+2026-05-29 12:07:57 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Evaluating integrity metrics using dynamically saved application state.
+2026-05-29 12:07:57 [pool-3-thread-2] INFO  stepDefinition.Hooks - Scenario PASSED: Verify cart persistence and removal functionality
+2026-05-29 12:07:57 [pool-3-thread-2] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:08:00 [pool-3-thread-1] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:08:00 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Executing Auth Profile verification profile strategy: [invalid_user] for user context ID: invalid_user
+2026-05-29 12:08:02 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Authentication rejected as expected. Evaluating alert text layer message string: Epic sadface: Username and password do not match any user in this service
+2026-05-29 12:08:02 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Verifying login result matches expected outcome: Invalid Login
+2026-05-29 12:08:02 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Invalid login path - Error message validation: Epic sadface: Username and password do not match any user in this service
+2026-05-29 12:08:02 [pool-3-thread-1] INFO  stepDefinition.Hooks - Scenario PASSED: Login with various user profiles
+2026-05-29 12:08:02 [pool-3-thread-1] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:08:07 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:07 [pool-3-thread-4] INFO  stepDefinition.Hooks - Scenario execution completed: Verify product detail page and navigation
+2026-05-29 12:08:07 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:07 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:07 [pool-3-thread-4] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Verify product image and accessibility consistency
+2026-05-29 12:08:07 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:07 [pool-3-thread-4] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:08:11 [pool-3-thread-4] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:08:12 [pool-3-thread-4] INFO  stepDefinition.AuthSteps - Setting up logged-in user session with standard_user credentials
+2026-05-29 12:08:13 [pool-3-thread-4] INFO  stepDefinition.AuthSteps - User successfully logged in. Dashboard title: Products
+2026-05-29 12:08:13 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Starting global static content validation checks and compliance accessibility audits loop.
+2026-05-29 12:08:13 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Discovered total graphic components arrays properties. Iterating over image links count total target: 6
+2026-05-29 12:08:13 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Analyzing index position reference element properties node item [0] | Source Path string location: https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg | Accessibility Label Tag info: Sauce Labs Backpack
+2026-05-29 12:08:14 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Analyzing index position reference element properties node item [1] | Source Path string location: https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg | Accessibility Label Tag info: Sauce Labs Bike Light
+2026-05-29 12:08:14 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Analyzing index position reference element properties node item [2] | Source Path string location: https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg | Accessibility Label Tag info: Sauce Labs Bolt T-Shirt
+2026-05-29 12:08:14 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Analyzing index position reference element properties node item [3] | Source Path string location: https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg | Accessibility Label Tag info: Sauce Labs Fleece Jacket
+2026-05-29 12:08:14 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Analyzing index position reference element properties node item [4] | Source Path string location: https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg | Accessibility Label Tag info: Sauce Labs Onesie
+2026-05-29 12:08:14 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Analyzing index position reference element properties node item [5] | Source Path string location: https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg | Accessibility Label Tag info: Test.allTheThings() T-Shirt (Red)
+2026-05-29 12:08:14 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Image src validation passed during earlier verification loop.
+2026-05-29 12:08:14 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Broken image link validation passed during earlier verification loop.
+2026-05-29 12:08:14 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Image alt-text consistency validation passed during earlier verification loop.
+2026-05-29 12:08:14 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Testing element hyperlink consistency mapping. Target item picture mapping to perform action: Sauce Labs Backpack
+2026-05-29 12:08:15 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Detailed anchor view redirection tracking completed.
+2026-05-29 12:08:15 [pool-3-thread-4] INFO  stepDefinition.InventorySteps - Detailed anchor view redirection tracking completed. Loaded detail sheet focus header item text output contents parameter: Sauce Labs Backpack
+2026-05-29 12:08:15 [pool-3-thread-4] INFO  stepDefinition.Hooks - Scenario PASSED: Verify product image and accessibility consistency
+2026-05-29 12:08:15 [pool-3-thread-4] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:08:16 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:16 [pool-3-thread-1] INFO  stepDefinition.Hooks - Scenario execution completed: Login with various user profiles
+2026-05-29 12:08:16 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:16 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:16 [pool-3-thread-1] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Verify logout and session validation
+2026-05-29 12:08:16 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:16 [pool-3-thread-1] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:08:17 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:17 [pool-3-thread-2] INFO  stepDefinition.Hooks - Scenario execution completed: Verify cart persistence and removal functionality
+2026-05-29 12:08:17 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:17 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:17 [pool-3-thread-2] INFO  stepDefinition.Hooks - Initializing Cucumber scenario: Verify cross-user cart isolation and data boundaries
+2026-05-29 12:08:17 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:17 [pool-3-thread-2] INFO  stepDefinition.Hooks - Configurations -> Browser: edge, Mode: grid, Headless: true
+2026-05-29 12:08:22 [pool-3-thread-1] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:08:22 [pool-3-thread-2] INFO  stepDefinition.Hooks - Navigating to URL: https://www.saucedemo.com/
+2026-05-29 12:08:23 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Starting Multi-Tenant Security Access Isolation check verification sequence workflows.
+2026-05-29 12:08:23 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Setting up logged-in user session with standard_user credentials
+2026-05-29 12:08:26 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - User successfully logged in. Dashboard title: Products
+2026-05-29 12:08:26 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Triggering exit application logout commands to clear active profile authorization context headers elements.
+2026-05-29 12:08:26 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Multi-Tenant Isolation Phase: populating tracking memory state of tenant account context profile 'standard_user'.
+2026-05-29 12:08:26 [pool-3-thread-2] INFO  stepDefinition.CartSteps - User adding 2 products to cart for isolation testing.
+2026-05-29 12:08:26 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Executing logout sequence logic to clear active auth profiles.
+2026-05-29 12:08:27 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Added product at index: 0
+2026-05-29 12:08:27 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Evaluating location routing after explicit user sign-out action commands. Verified destination link: https://www.saucedemo.com/
+2026-05-29 12:08:27 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Injecting rogue bypass navigation tracking script link to forcefully load deep internal protected view directories dashboard layout without active auth.
+2026-05-29 12:08:27 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Added product at index: 1
+2026-05-29 12:08:27 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Evaluating DOM numeric notification balance badge elements. Current parsed total count: 2
+2026-05-29 12:08:27 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Tenant data population verified successfully. Dropping cookies, terminating active auth context headers variables elements.
+2026-05-29 12:08:27 [pool-3-thread-1] INFO  stepDefinition.AuthSteps - Analyzing security guard intercept action responses. Page tracking url post injection bypass attempt: https://www.saucedemo.com/
+2026-05-29 12:08:27 [pool-3-thread-1] INFO  stepDefinition.Hooks - Scenario PASSED: Verify logout and session validation
+2026-05-29 12:08:27 [pool-3-thread-1] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:08:28 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Executing comprehensive local cache memory wipe parameters over core active browser storage vectors elements.
+2026-05-29 12:08:28 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Cache and cookies cleared successfully.
+2026-05-29 12:08:28 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Starting Multi-Tenant Security Access Isolation check verification sequence workflows.
+2026-05-29 12:08:29 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Multi-Tenant Isolation Phase: populating tracking memory state of tenant account context profile 'problem_user'.
+2026-05-29 12:08:29 [pool-3-thread-2] INFO  stepDefinition.CartSteps - User initiating navigation to shopping cart page.
+2026-05-29 12:08:29 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Auditing data contamination parameters leaks status. Discovered cross-user items total count balance: 0
+2026-05-29 12:08:29 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Tenant 2 adding 1 product(s) for cross-isolation testing.
+2026-05-29 12:08:30 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Product added successfully.
+2026-05-29 12:08:30 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Tenant data population verified successfully. Dropping cookies, terminating active auth context headers variables elements.
+2026-05-29 12:08:31 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:31 [pool-3-thread-4] INFO  stepDefinition.Hooks - Scenario execution completed: Verify product image and accessibility consistency
+2026-05-29 12:08:31 [pool-3-thread-4] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:31 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Executing comprehensive local cache memory wipe parameters over core active browser storage vectors elements.
+2026-05-29 12:08:31 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Cache and cookies cleared successfully.
+2026-05-29 12:08:31 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Reloading baseline user context 'standard_user' session instances to audit state data boundaries.
+2026-05-29 12:08:32 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Multi-Tenant Isolation Phase 3: Reloading standard execution context profile 'standard_user' into clean dashboard view.
+2026-05-29 12:08:32 [pool-3-thread-2] INFO  stepDefinition.CartSteps - User initiating navigation to shopping cart page.
+2026-05-29 12:08:32 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Analyzing surviving baseline data parameters totals bounds. Current total cart lines counts: 0
+2026-05-29 12:08:32 [pool-3-thread-2] INFO  stepDefinition.CartSteps - Total cross-account security decoupling verified. State boundaries completely prevent cross-tenant data visibility leakage.
+2026-05-29 12:08:32 [pool-3-thread-2] INFO  stepDefinition.Hooks - Scenario PASSED: Verify cross-user cart isolation and data boundaries
+2026-05-29 12:08:32 [pool-3-thread-2] INFO  stepDefinition.Hooks - Closing browser driver instance.
+2026-05-29 12:08:36 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:36 [pool-3-thread-1] INFO  stepDefinition.Hooks - Scenario execution completed: Verify logout and session validation
+2026-05-29 12:08:36 [pool-3-thread-1] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:40 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
+2026-05-29 12:08:40 [pool-3-thread-2] INFO  stepDefinition.Hooks - Scenario execution completed: Verify cross-user cart isolation and data boundaries
+2026-05-29 12:08:40 [pool-3-thread-2] INFO  stepDefinition.Hooks - ====================================================================
